@@ -1,0 +1,90 @@
+
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maincard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.header{
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: orange;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+}
+
+.search{
+    width: 300px;
+    height: 25px;
+    margin-left: 250px;
+}
+
+.title{
+    font-family: 'Pokemon Solid', sans-serif;
+    background-color: black;
+    padding: 8px;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 10px;
+}
+#pokename,
+#poketype,
+#pokeabilities,
+#pokistats {
+    margin: 0px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.labels {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+.poketitle{
+
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+.display-card{
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.Display{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
